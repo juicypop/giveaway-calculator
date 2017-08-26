@@ -1,6 +1,0 @@
-<?php
-$weblink = file("https://steemd.com/juicypop/@juicypop/juicypops-giveaway-daily-free-sbd-usdusdusd-27-2017823t201113975z");
-for($i=0;$i < count($weblink); $i++){
-   echo $i.": ".$weblink[$i]."<br><br>";
-}
-?>
